@@ -27,7 +27,7 @@ async def buff_like(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Key sai!")
         return
     await update.message.reply_text(f"⏳ Đang xử lý UID: {uid}...")
-    url = f"https://tuongtaccheo.com/api/freefire/?access_token={API_TTC}&id={uid}"
+    url = f"https://api.tuongtaccheo.com/api/freefire/?access_token={API_TTC}&id={uid}"
     try:
         response = requests.get(url, timeout=30)
         res = response.json()
