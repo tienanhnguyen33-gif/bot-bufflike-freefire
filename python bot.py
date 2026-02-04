@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 TOKEN_BOT = "8376882243:AAESOF0XBQpzqNjcALU2P5sisxK_xCMmp9k"
-API_TTC = "hjbkclczkuz758dvkx1uu3d7c02mreh6w"
+API_TTC = "gobrd2mjs7mh59sizc3wdac9iuu7st08"
 ADMIN_ID = "7280120249"
 
 valid_keys = [] 
